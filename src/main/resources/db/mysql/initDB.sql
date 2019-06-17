@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS adminpress;
+GRANT ALL PRIVILEGES ON adminpress.* TO pc@localhost IDENTIFIED BY 'pc';
 
 USE adminpress;
 
